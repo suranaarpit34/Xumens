@@ -34,15 +34,15 @@
 }
 .button-box {
   border: 1px solid rgba(152, 255, 135, 1);
-  height: 45px;
-  width: 140px;
+  width: 161px;
+  height: 55.95px;
   position: absolute;
   top: 450px;
-  border-radius: 18px;
+  border-radius: 27px;
 }
 
 .button-box > button {
-  border-radius: 18px;
+  border-radius: 27px;
   border: none;
   background: rgba(31, 31, 31, 1);
   width: 100%;
@@ -50,8 +50,8 @@
   cursor: pointer;
   color: white;
 }
-.button-box > button > img{
-    height: 12px;
+.button-box > button > img {
+  height: 12px;
 }
 @media screen and (max-width: 480px) {
   .home-section {
