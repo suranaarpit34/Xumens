@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+
+.home-section {
+  height: 100vh;
+  background: url(../../Images/landingBg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  /* border: 1px solid red; */
+  width: fit-content;
+  height: 75px;
+  margin: auto;
+}
+.desc {
+  /* border: 1px solid blue; */
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  position: absolute;
+  top: 400px;
+}
+.desc > p {
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  font-family: "Space Grotesk";
+}
+.button-box {
+  border: 1px solid rgba(152, 255, 135, 1);
+  height: 45px;
+  width: 140px;
+  position: absolute;
+  top: 450px;
+  border-radius: 18px;
+}
+.button-box > button {
+  border-radius: 18px;
+  border: none;
+  background: rgba(31, 31, 31, 1);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+  .home-section {
+    background: url(../../Images/mobileLanding.svg);
+    height: 115vh;
+    background-repeat: no-repeat;
+  }
+  .title {
+    position: absolute;
+    top: 400px;
+  }
+  .title-img {
+    height: 120px;
+  }
+  .desc {
+    /* border: 1px solid red; */
+    top: 480px;
+    width: 90%;
+    text-align: center;
+  }
+  .button-box {
+    top: 600px;
+  }
+}
